@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "f6486be3-9dc8-4526-a35d-d8009b6e9e1b",
+		"name": "skb lab",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "register new user success",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"login\":\"some_login\",\r\n    \"password\":\"Password8\",\r\n    \"email\":\"mail2@mail.ru\",\r\n    \"firstname\":\"Ivan\",\r\n    \"lastname\":\"Petrov\",\r\n    \"middlename\":\"Igorevich\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/auth/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"auth",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register new user with errors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"login\":\"vasya2000\",\r\n    \"password\":\"pass\",\r\n    \"email\":\"second@mail.ru\",\r\n    \"firstname\":\"Ivan1\",\r\n    \"lastname\":\"Petrov%\",\r\n    \"middlename\":\"Igorevich*&^\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/auth/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"auth",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
