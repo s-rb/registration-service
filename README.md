@@ -1,6 +1,8 @@
 # registration-service
 Registration service module
 
+![Java](https://img.shields.io/badge/-Java-05122A?style=flat&logo=Java&logoColor=fffffb) ![Spring](https://img.shields.io/badge/-Spring-05122A?style=flat&logo=Spring) ![Springboot](https://img.shields.io/badge/-Springboot-05122A?style=flat&logo=Springboot) ![H2](https://img.shields.io/badge/-H2-05122A?style=flat&logo=h2) ![JUnit](https://img.shields.io/badge/-JUnit-05122A?style=flat&logo=JUnit) ![Mockito](https://img.shields.io/badge/-Mockito-05122A?style=flat&logo=Mockito) ![Powermock](https://img.shields.io/badge/-Powermock-05122A?style=flat&logo=Powermock) ![Liquibase](https://img.shields.io/badge/-Liquibase-05122A?style=flat&logo=Liquibase) ![Lombok](https://img.shields.io/badge/-Lombok-05122A?style=flat&logo=Lombok) ![Rest](https://img.shields.io/badge/-RestAPI-05122A?style=flat&logo=rest) ![Postman](https://img.shields.io/badge/-Postman-05122A?style=flat&logo=Postman)
+
 ## Main Features:
 * Java 11,
 * SpringBoot (web, data-jpa),
